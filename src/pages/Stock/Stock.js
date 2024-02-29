@@ -22,6 +22,7 @@ export default function Price (props) {
 
   // useEffect to run getCoin when component mounts
   useEffect(() => {
+    console.log('hello')
     getCoin();
   }, []);
 
